@@ -1,0 +1,17 @@
+EQUIPO DE LA ENTREGA V5
+
+Integrantes de la entrega:
+2025003008 Sebastian Jhon Ancco Flores
+2025002346 Herbert Rodrigo Ortiz Condori
+2025002056 Fernando Cayani Poma
+
+Formato de títulos de ventanas:
+Ancco Flores, Sebastian Jhon / Ortiz Condori, Herbert Rodrigo / Cayani Poma, Fernando
+
+Verificación: los nueve archivos Java de producción y los tres archivos Java
+con pruebas contienen los tres nombres completos con sus respectivos códigos.
+Los títulos de FlowLayout, BorderLayout, GridLayout, menú principal,
+formulario de pasajes y diseño visual identifican al equipo completo.
+El formulario de pasajes y el menú muestran además una cabecera multilínea.
+MainWindow y .swingbuilder-layout.json coinciden en título y tamaño 820×330.
+El campo del ejemplo visual y su prueba usan el texto Sebastian Jhon.

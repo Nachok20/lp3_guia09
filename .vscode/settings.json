@@ -1,0 +1,11 @@
+{
+  "java.project.sourcePaths": [
+    "codigos",
+    "diseno_visual"
+  ],
+  "java.project.outputPath": "build/classes",
+  "editor.fontSize": 16,
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "files.encoding": "utf8"
+}

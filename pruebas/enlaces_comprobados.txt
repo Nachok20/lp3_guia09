@@ -1,0 +1,6 @@
+Fecha de comprobación: 2026-11-05
+Solicitudes HTTP a referencias externas del informe:
+https://code.visualstudio.com/docs/java/java-gui — HTTP 200
+https://marketplace.visualstudio.com/items?itemName=gugacarbo.swing-gui-builder — HTTP 200
+https://docs.oracle.com/en/java/javase/17/docs/api/java.desktop/javax/swing/package-summary.html — HTTP 200; título y contenido javax.swing comprobados.
+https://docs.oracle.com/en/java/javase/17/docs/api/java.desktop/java/awt/package-summary.html — HTTP 200

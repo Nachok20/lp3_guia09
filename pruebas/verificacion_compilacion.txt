@@ -1,0 +1,43 @@
+Verificación final de la Guía 09 LP3 — versión 5
+Equipo de la entrega:
+2025003008 Sebastian Jhon Ancco Flores
+2025002346 Herbert Rodrigo Ortiz Condori
+2025002056 Fernando Cayani Poma
+
+Editor revisado: Visual Studio Code 1.145.0.
+Herramienta visual: Swing GUI Builder 0.0.3.
+JDK observado: OpenJDK 21.0.12.1; javac 21.0.12.1.
+Objetivo de compilación: Java 17 (--release 17); codificación UTF-8.
+Compilación de las nueve clases de producción: correcta, con -Xlint:all sin advertencias.
+Compilación de las tres clases de pruebas: correcta, con -Xlint:all sin advertencias.
+Compilación independiente de diseno_visual/*.java: correcta sin el paquete lab09.
+Los cuatro .class del ejemplo independiente tienen versión 61, correspondiente a Java 17.
+JAR Guia09_LP3.jar recompuesto con las clases finales del equipo.
+Modelo: 81 pruebas aprobadas; 0 fallidas.
+Interfaz: 20 comprobaciones correctas.
+Diseño visual: 2 comprobaciones correctas.
+Las ocho capturas de la aplicación y las dos capturas de ejecución visual
+se regeneraron con java.awt.Robot en Xvfb :100 (1600×1100), con Twm y Nimbus.
+La captura 16 muestra el caso de nombre vacío y conserva las dos comprobaciones.
+Fecha de viaje mostrada en las nuevas capturas: 17/12/2026 (fecha actual + 42 días).
+Los registros originales resultado_modelo.txt, resultado_interfaz.txt y
+resultado_visual.txt corresponden a esta ejecución final.
+Inspección visual de los cuatro layouts: títulos completos de los tres integrantes.
+FlowLayout amplio: 6 botones en una fila; estrecho 720×300: distribución 4+2.
+Inspección visual del formulario: cabecera con los tres nombres, JList con sus
+3 opciones visibles, datos completos y acciones sin recortes.
+Inspección visual del ejemplo 820×330: título completo, saludo y aviso por nombre vacío.
+Los scripts de Windows se revisaron, sin ejecutarlos en Windows.
+
+Renombrado: etiquetaNombre, campoNombre y botonSaludar en el descriptor,
+jerarquía del diseñador, código exportado y manejador completado.
+Repositorio de publicación: https://github.com/Nachok20/lp3_guia09
+Los archivos de estudio y de revisión interna se conservaron fuera de la entrega.
+Las referencias externas respondieron HTTP 200; véase enlaces_comprobados.txt.
+
+Comprobación del ejecutable: java -jar Guia09_LP3.jar abre el menú de los
+tres layouts y el formulario, sin errores en consola; captura de revisión obtenida.
+Documentos finales: PDF de 20 páginas y 16 figuras consecutivas; Word con
+18 imágenes (16 capturas y 2 logotipos), idioma es-PE en texto y estilos.
+El DOCX se renderizó con LibreOffice: 19 páginas, sin hoja casi vacía antes
+de Conclusiones. No se ejecutó Microsoft Word. Márgenes y enlaces revisados.

@@ -1,0 +1,19 @@
+Comando: code --version
+1.145.0
+a717861c07586a53d83b80d742cd3f59b20a6273
+x64
+
+
+Comando: java -version
+
+openjdk version "21.0.12.1" 2026-08-18
+OpenJDK Runtime Environment (build 21.0.12.1+1-1-deb13u1-Debian)
+OpenJDK 64-Bit Server VM (build 21.0.12.1+1-1-deb13u1-Debian, mixed mode, sharing)
+
+Comando: javac -version
+javac 21.0.12.1
+
+
+Comando: code --list-extensions --show-versions
+gugacarbo.swing-gui-builder@0.0.3
+

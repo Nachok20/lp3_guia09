@@ -1,0 +1,87 @@
+PRUEBAS DEL MODELO PASAJE — Laboratorio 09
+Referencia fija: 03/11/2026. Ejecución independiente del reloj y de Swing.
+
+OK  DNI conserva ceros iniciales
+OK  El resumen conserva todos los datos del viaje
+OK  Nombre válido: María José Núñez
+OK  Nombre válido: Ana-María Pérez
+OK  Nombre válido: José O'Connor
+OK  Nombre válido: María D’Arcy
+OK  Nombre válido: José Pérez
+OK  Limpia espacios de los datos de texto
+OK  Permite viajar hoy
+OK  Acepta 29 de febrero en año bisiesto
+OK  Rechaza nombre: null
+OK  Rechaza nombre: 
+OK  Rechaza nombre:    
+OK  Rechaza nombre: Ana123
+OK  Rechaza nombre: -Ana
+OK  Rechaza nombre: Ana-
+OK  Rechaza DNI: null
+OK  Rechaza DNI: 
+OK  Rechaza DNI: 1234567
+OK  Rechaza DNI: 123456789
+OK  Rechaza DNI: 1234567A
+OK  Rechaza DNI: -1234567
+OK  Rechaza DNI: 1234 567
+OK  Rechaza DNI: １２３４５６７８
+OK  Rechaza fecha inválida: null
+OK  Rechaza fecha inválida: 
+OK  Rechaza fecha inválida: 31/11/2026
+OK  Rechaza fecha inválida: 29/02/2027
+OK  Rechaza fecha inválida: 00/12/2026
+OK  Rechaza fecha inválida: 01/13/2026
+OK  Rechaza fecha inválida: 1/12/2026
+OK  Rechaza fecha inválida: 01/2/2027
+OK  Rechaza fecha inválida: 2026-12-15
+OK  Rechaza fecha inválida: 15/12/26
+OK  Rechaza viaje ayer
+OK  Rechaza referencia de fecha nula
+OK  Rechaza origen y destino iguales: Arequipa
+OK  Rechaza origen y destino iguales: Lima
+OK  Rechaza origen y destino iguales: Cusco
+OK  Rechaza origen y destino iguales: Puno
+OK  Rechaza origen y destino iguales: Tacna
+OK  Rechaza origen sin selección válida: null
+OK  Rechaza destino sin selección válida: null
+OK  Rechaza origen sin selección válida: 
+OK  Rechaza destino sin selección válida: 
+OK  Rechaza origen sin selección válida: Ciudad inexistente
+OK  Rechaza destino sin selección válida: Ciudad inexistente
+OK  Rechaza piso sin selección válida: null
+OK  Rechaza piso sin selección válida: 
+OK  Rechaza piso sin selección válida: 3er piso
+OK  Rechaza servicio sin selección válida: null
+OK  Rechaza servicio sin selección válida: 
+OK  Rechaza servicio sin selección válida: Premium
+OK  Rechaza colección de opcionales nula
+OK  Rechaza opcional desconocido
+OK  Rechaza elemento opcional nulo
+OK  Combinación 0/7, Económico, 1er piso
+OK  Combinación 1/7, Económico, 2do piso
+OK  Combinación 2/7, Económico, 1er piso
+OK  Combinación 3/7, Económico, 2do piso
+OK  Combinación 4/7, Económico, 1er piso
+OK  Combinación 5/7, Económico, 2do piso
+OK  Combinación 6/7, Económico, 1er piso
+OK  Combinación 7/7, Económico, 2do piso
+OK  Combinación 0/7, Standard, 1er piso
+OK  Combinación 1/7, Standard, 2do piso
+OK  Combinación 2/7, Standard, 1er piso
+OK  Combinación 3/7, Standard, 2do piso
+OK  Combinación 4/7, Standard, 1er piso
+OK  Combinación 5/7, Standard, 2do piso
+OK  Combinación 6/7, Standard, 1er piso
+OK  Combinación 7/7, Standard, 2do piso
+OK  Combinación 0/7, VIP, 1er piso
+OK  Combinación 1/7, VIP, 2do piso
+OK  Combinación 2/7, VIP, 1er piso
+OK  Combinación 3/7, VIP, 2do piso
+OK  Combinación 4/7, VIP, 1er piso
+OK  Combinación 5/7, VIP, 2do piso
+OK  Combinación 6/7, VIP, 1er piso
+OK  Combinación 7/7, VIP, 2do piso
+OK  La solicitud conserva copia de los opcionales
+
+RESULTADO: 81 pruebas aprobadas; 0 fallidas.
+Las pruebas cubren reglas y resumen del modelo. La interfaz requiere comprobación gráfica aparte.

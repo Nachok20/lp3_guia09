@@ -1,0 +1,12 @@
+VERIFICACIÓN DE ACCESO PÚBLICO
+Fecha: 2026-11-05
+
+Solicitud HTTPS realizada sin cabecera Authorization ni token en el cliente.
+URL: https://api.github.com/repos/Nachok20/lp3_guia09
+HTTP: 200
+Repositorio: Nachok20/lp3_guia09
+private: false
+Visibilidad: public
+URL pública: https://github.com/Nachok20/lp3_guia09
+
+El proyecto completo se publica en la raíz de este repositorio.

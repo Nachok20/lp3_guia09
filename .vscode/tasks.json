@@ -1,0 +1,53 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compilar Guía 09",
+      "type": "shell",
+      "command": "javac --release 17 -encoding UTF-8 -d build/classes codigos/lab09/*.java diseno_visual/*.java",
+      "problemMatcher": "$javac",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Crear ejecutable",
+      "type": "shell",
+      "command": "jar --create --file Guia09_LP3.jar --main-class lab09.Main -C build/classes .",
+      "problemMatcher": [],
+      "dependsOn": "Compilar Guía 09"
+    },
+    {
+      "label": "Ejecutar menú",
+      "type": "shell",
+      "command": "java -Dswing.aatext=true -jar Guia09_LP3.jar",
+      "problemMatcher": [],
+      "dependsOn": "Crear ejecutable"
+    },
+    {
+      "label": "Ejecutar diseño visual",
+      "type": "shell",
+      "command": "java -Dswing.aatext=true -cp build/classes MainWindow",
+      "problemMatcher": [],
+      "dependsOn": "Compilar Guía 09"
+    },
+    {
+      "label": "Compilar pruebas",
+      "type": "shell",
+      "command": "javac --release 17 -encoding UTF-8 -cp build/classes -d build/pruebas pruebas/lab09/*.java pruebas/PruebasVisual.java",
+      "problemMatcher": "$javac",
+      "dependsOn": "Compilar Guía 09"
+    },
+    {
+      "label": "Probar modelo",
+      "type": "shell",
+      "command": "java -cp build/classes:build/pruebas lab09.PruebasPasaje",
+      "problemMatcher": [],
+      "dependsOn": "Compilar pruebas",
+      "windows": {
+        "command": "java -cp \"build/classes;build/pruebas\" lab09.PruebasPasaje"
+      }
+    }
+  ]
+}

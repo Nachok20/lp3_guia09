@@ -1,0 +1,33 @@
+{
+  "editor": "Visual Studio Code",
+  "version": "1.145.0",
+  "canal": "stable",
+  "commit": "a717861c07586a53d83b80d742cd3f59b20a6273",
+  "consulta": "2026-11-05",
+  "fuente": "https://update.code.visualstudio.com/api/update/linux-x64/stable/latest",
+  "extension": "gugacarbo.swing-gui-builder",
+  "version_extension": "0.0.3",
+  "java": "OpenJDK 21.0.12.1",
+  "compilacion_objetivo": "Java 17",
+  "sistema": "Debian 13",
+  "capturas": "Ejecuciones reales con Xvfb, Twm y java.awt.Robot",
+  "verificacion_windows": "Scripts revisados; no ejecutados en Windows.",
+  "fecha_revision": "2026-11-05",
+  "integrantes": [
+    {
+      "codigo": "2025003008",
+      "nombre": "Sebastian Jhon Ancco Flores"
+    },
+    {
+      "codigo": "2025002346",
+      "nombre": "Herbert Rodrigo Ortiz Condori"
+    },
+    {
+      "codigo": "2025002056",
+      "nombre": "Fernando Cayani Poma"
+    }
+  ],
+  "modalidad": "grupal",
+  "repositorio": "https://github.com/Nachok20/lp3_guia09",
+  "version_entrega": 5
+}

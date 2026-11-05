@@ -1,0 +1,57 @@
+VERIFICACIÓN DE INDEPENDENCIA DEL EJEMPLO VISUAL — V5
+
+Equipo:
+2025003008 Sebastian Jhon Ancco Flores
+2025002346 Herbert Rodrigo Ortiz Condori
+2025002056 Fernando Cayani Poma
+
+Directorio de trabajo: entrega/
+JDK utilizado: /workspace/work/guia09/tools/local/usr/lib/jvm/java-21-openjdk-amd64
+
+Comando ejecutado:
+javac --release 17 -encoding UTF-8 -Xlint:all -classpath /workspace/work/guia09_v5/check-visual -sourcepath diseno_visual -d /workspace/work/guia09_v5/check-visual diseno_visual/*.java
+
+Resultado: código de salida 0, sin errores ni advertencias.
+Se compilaron exclusivamente los cuatro archivos de diseno_visual/.
+No se incluyeron fuentes, archivos .class ni dependencias del paquete principal.
+PruebasVisual.java también compila y se ejecuta con esas cuatro clases únicamente.
+Archivos generados en el directorio aislado check-visual/:
+- MainWindow.class
+- CustomLabel1.class
+- CustomTextField1.class
+- CustomButton1.class
+Los cuatro archivos tienen versión de clase 61, correspondiente a Java 17.
+
+CONFIGURACIÓN AUTÓNOMA DE LA APARIENCIA
+
+MainWindow.main configura Nimbus mediante UIManager.setLookAndFeel y aplica
+localmente fuente SansSerif de 13 puntos. El bloque se ejecuta en el hilo de
+eventos de Swing antes de construir la ventana. Si Nimbus no está disponible,
+se mantiene la apariencia predeterminada y se comunica el motivo por stderr.
+La demo no requiere compilar el paquete lab09 para funcionar.
+
+AJUSTES DEL DISEÑO Y DEL CÓDIGO EXPORTADO
+
+- Se editaron los variableName del descriptor .swingbuilder-layout.json a
+  etiquetaNombre, campoNombre y botonSaludar; se reabrió el diseñador y se
+  pulsó Generate para exportar los cuatro archivos. La extensión 0.0.3 no
+  muestra esa propiedad en su panel Properties.
+- Se agregó el encabezado con nombres y códigos de los tres integrantes en
+  los cuatro archivos; no es una propiedad generada por el diseñador.
+- Se incorporó serialVersionUID en las clases Swing para evitar advertencias
+  de serialización durante la compilación con -Xlint:all.
+- El título y las dimensiones se sincronizaron con el archivo de diseño JSON
+  para identificar al equipo completo; la ventana mide 820×330.
+- Se conservó el enlace addActionListener con mostrarSaludo(), generado por
+  la herramienta. Se completó el cuerpo del método para validar el nombre y
+  presentar el resultado en JOptionPane.
+- Se agregó etiquetaNombre.setLabelFor(campoNombre) para asociar la etiqueta al campo.
+- Se agregó getRootPane().setDefaultButton(botonSaludar) para activar Saludar con
+  Enter, y setLocationRelativeTo(null) para centrar la ventana.
+- Se conservó el inicio generado en el hilo de eventos. Se añadió en main la
+  configuración local de Nimbus y las fuentes, sin dependencias del proyecto principal.
+- El texto de ejemplo Sebastian Jhon coincide en el componente, JSON y prueba.
+
+Las coordenadas de los componentes exportados se conservaron. Esta comprobación
+verifica compilación aislada; las pruebas funcionales de la ventana corresponden
+al registro resultado_visual.txt y a las capturas reales 12 y 16.

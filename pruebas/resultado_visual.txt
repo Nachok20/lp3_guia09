@@ -1,0 +1,4 @@
+OK: al pulsar Saludar con nombre Sebastian Jhon, el diálogo dice: Hola, Sebastian Jhon. Bienvenido a Java Swing.
+OK: un nombre vacío o formado por espacios muestra: Ingrese su nombre.
+RESULTADO: 2 comprobaciones del formulario visual correctas.
+Evidencias: 12_vscode_ejecucion.png y 16_visual_nombre_vacio.png son capturas reales con java.awt.Robot.

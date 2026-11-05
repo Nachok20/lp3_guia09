@@ -1,0 +1,22 @@
+OK: FlowLayout amplio: seis botones en la misma fila
+OK: FlowLayout estrecho: reorganización en varias filas
+OK: BorderLayout: las cinco regiones ocupan las posiciones esperadas
+OK: GridLayout: seis celdas del mismo tamaño en dos filas y tres columnas
+OK: Piso del bus: seleccionar segundo piso desmarca el primero
+OK: JList: solo se admite una calidad de servicio
+OK: Resumen: contiene Ana Lucía Pérez
+OK: Resumen: contiene 01234567
+OK: Resumen: contiene 17/12/2026
+OK: Resumen: contiene Arequipa
+OK: Resumen: contiene Lima
+OK: Resumen: contiene 2do piso
+OK: Resumen: contiene VIP
+OK: Resumen: contiene Audífonos
+OK: Resumen: contiene Manta
+OK: Resumen: contiene Revistas
+OK: Limpiar: borra todos los campos de texto
+OK: Limpiar: quita origen, destino y calidad
+OK: Limpiar: desmarca ambos pisos y todos los servicios opcionales
+OK: Validación: formulario vacío produce advertencia y no muestra resumen
+RESULTADO: 20 comprobaciones de interfaz correctas.
+Las 8 imágenes PNG son capturas reales de pantalla realizadas con java.awt.Robot.

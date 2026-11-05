@@ -1,0 +1,54 @@
+{
+  "className": "MainWindow",
+  "frameTitle": "Diseño visual | Ancco Flores, Sebastian Jhon / Ortiz Condori, Herbert Rodrigo / Cayani Poma, Fernando",
+  "frameWidth": 820,
+  "frameHeight": 330,
+  "components": [
+    {
+      "id": "c15e8954-1b50-4a87-8861-dd7b9e901680",
+      "type": "Label",
+      "variableName": "etiquetaNombre",
+      "x": 36,
+      "y": 77,
+      "width": 120,
+      "height": 28,
+      "backgroundColor": "#ffffff",
+      "textColor": "#000000",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "eventMethodName": "",
+      "text": "Nombre:"
+    },
+    {
+      "id": "d671889c-3528-4515-b967-b5e9a299e2f4",
+      "type": "TextField",
+      "variableName": "campoNombre",
+      "x": 195,
+      "y": 73,
+      "width": 180,
+      "height": 36,
+      "backgroundColor": "#ffffff",
+      "textColor": "#000000",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "eventMethodName": "",
+      "text": "Sebastian Jhon"
+    },
+    {
+      "id": "7206bb79-7e9b-4d07-beda-ecc91d88dd55",
+      "type": "Button",
+      "variableName": "botonSaludar",
+      "x": 182,
+      "y": 143,
+      "width": 120,
+      "height": 36,
+      "backgroundColor": "#ffffff",
+      "textColor": "#000000",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "eventMethodName": "mostrarSaludo",
+      "text": "Saludar"
+    }
+  ],
+  "backgroundColor": "#f4f4f4"
+}

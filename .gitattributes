@@ -1,0 +1,7 @@
+*.pdf binary
+*.docx binary
+*.png binary
+*.jpg binary
+*.jar binary
+*.zip binary
+*.bat -text
