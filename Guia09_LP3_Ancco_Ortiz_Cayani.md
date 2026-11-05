@@ -1,5 +1,3 @@
-**Declaración de asistencia de IA:** El informe, el código y las pruebas se elaboraron con asistencia de IA. Los integrantes deben revisar y comprender el contenido, comprobar su funcionamiento y atender las normas del curso sobre estas herramientas.
-
 # Actividades
 
 ## 1. Administradores de esquemas
@@ -95,6 +93,8 @@ Investigue en el IDE de su preferencia cómo se puede utilizar herramientas visu
 ### a. Como es el proceso de creación de una GUI utilizando herramientas de “soltar y arrastrar” y haga capturas de pantalla que evidencien el mismo.
 
 VS Code admite el desarrollo de aplicaciones gráficas Java (Microsoft, s.f.). En esta práctica se utiliza **Visual Studio Code 1.145.0** con la extensión **Swing GUI Builder 0.0.3**, de gugacarbo. La extensión agrega una paleta, un lienzo y un panel de propiedades; permite generar clases Java Swing y el enlace a un método de evento (Carbonera, s.f.). Este diseñador es un complemento de VS Code.
+
+En las figuras 8 a 10, el Explorer muestra el nombre local `entrega`. Es el mismo proyecto que se publica en la raíz del repositorio `lp3_guia09`, con las mismas rutas internas.
 
 1. Abrir la carpeta raíz `lp3_guia09` en VS Code. En **Extensions** (Ctrl+Shift+X), buscar **Swing GUI Builder**, de Gustavo Carbonera (identificador `gugacarbo.swing-gui-builder`), e instalarlo. En la captura aparecen las opciones de administración de la extensión instalada y su versión.
 

@@ -1,4 +1,7 @@
-Verificación final de la Guía 09 LP3 — versión 5
+Verificación final de la Guía 09 LP3 — versión 6
+Actualización documental: las fuentes Java, el JAR, las capturas y los registros
+de pruebas se conservan de la ejecución verificada anterior.
+
 Equipo de la entrega:
 2025003008 Sebastian Jhon Ancco Flores
 2025002346 Herbert Rodrigo Ortiz Condori
@@ -41,3 +44,12 @@ Documentos finales: PDF de 20 páginas y 16 figuras consecutivas; Word con
 18 imágenes (16 capturas y 2 logotipos), idioma es-PE en texto y estilos.
 El DOCX se renderizó con LibreOffice: 19 páginas, sin hoja casi vacía antes
 de Conclusiones. No se ejecutó Microsoft Word. Márgenes y enlaces revisados.
+
+REVISIÓN DOCUMENTAL FINAL
+Se aclaró el nombre local entrega de las figuras 8 a 10.
+Se normalizaron 1881 atributos de idioma del DOCX a es-PE, incluidas las
+partes heredadas y los estilos con efectos de la plantilla.
+La rúbrica completa aparece con encabezado y total en una sola página:
+página 20 del PDF y página 18 del DOCX renderizado con LibreOffice.
+Las seis filas están protegidas contra división y las cinco primeras
+conservan la unión con la siguiente. PDF, DOCX, Markdown y README se sincronizaron.

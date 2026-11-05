@@ -127,8 +127,6 @@ La ejecución del modelo muestra sus resultados en la terminal y usa una fecha d
 
 Al repetir las pruebas gráficas, los scripts escriben las imágenes en `evidencias_nuevas/` y los registros en `pruebas/resultado_interfaz_nuevo.txt` y `pruebas/resultado_visual_nuevo.txt`. Las evidencias incluidas conservan sus rutas originales. Las ejecuciones documentadas se realizaron en Linux; los scripts de Windows se revisaron sin ejecutarlos en ese sistema.
 
-La declaración de asistencia de IA se encuentra al inicio del informe.
-
 Consultar también [verificacion_compilacion.txt](pruebas/verificacion_compilacion.txt), [verificacion_independencia.txt](pruebas/verificacion_independencia.txt) y [equipo_verificado.txt](pruebas/equipo_verificado.txt).
 
 ## Reabrir el diseñador visual
